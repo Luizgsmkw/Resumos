@@ -20,7 +20,7 @@
    - **Dica**: o conteúdo da mensagem é importante para você lembrar o tipo de alteração que fez no arquivo quando olhar o histórico de alterações no GitHub (repositório remoto). 
    - **Dica**: após realizar o comando"git commit" é aconselhável utilizar o comando: git status (se o Git informar que não tem nada na área de Staged para commitar é porque sua ação foi concluída com sucesso)
    
-2. Após commitar seu arquivo é o momento de envia-lo para o GitHub. Mas primeiro você precisa criar um repositório remoto, para realizar essa ação é só utilizar o comando: git remote add nomeDoRepositorio URL   / Ex: git remote add origin https://github.com/fernandosm/aaa.git /;  
+2. Após commitar seu arquivo é o momento de envia-lo para o GitHub. Mas primeiro você precisa criar um repositório remoto, para realizar essa ação é só utilizar o comando: git remote add nomeDoRepositorio URL   / Ex: git remote add origin URL /;  
 
 2.  Agora com seu repositório remoto criado você pode enviar o arquivo com o comando: git push nomeDoRepositorio master  / Ex: git push origin master / 
 
